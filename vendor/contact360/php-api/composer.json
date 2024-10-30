@@ -1,0 +1,24 @@
+{
+    "name": "contact360/php-api",
+    "type": "library",
+    "description": "Contact360 API connection layer",
+    "keywords": ["contact360"],
+    "homepage": "https://gitlab.com/contact360/php-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michał Stelmak",
+            "email": "biuro@stelsoft.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-json": "^1.2",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contact360\\": "src/"
+        }
+    }
+}
